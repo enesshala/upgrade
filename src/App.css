@@ -5,3 +5,9 @@
   font-family: 'Encode Sans Expanded',
   sans-serif;
 }
+
+::selection{
+  /* background-color: #01BF71; */
+  background-color: #4ebea4;
+  color: #010606;
+}
