@@ -8,12 +8,12 @@ export const HeaderContainer = styled.div`
     align-items: center;
     padding: 0 30px;
     height: 800px;
-    position: relative:
+    position: relative;
     z-index: 1;
 
     :before{
         content: '';
-        position: absolute:
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
@@ -86,7 +86,7 @@ export const HeaderBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
     flex-direction: column;
-    align-itmes: center;
+    align-items: center;
 `
 
 export const ArrowForward = styled(MdArrowForward)`
