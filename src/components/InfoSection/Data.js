@@ -1,18 +1,18 @@
 export const homeObjOne = {
     id: "about",
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Premium Upgrade',
-    headLine: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting chared any fees.',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'About us',
+    headLine: 'People, Culture & Services.',
+    description: 'We help clients solve problems by creating digital solutions based on the lates technology trends and innovations.',
     buttonLabel: 'Get started',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 }
 
 export const homeObjTwo = {
@@ -21,7 +21,7 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Unlimited Access',
-    headLine: 'Login to rour account at any time',
+    headLine: 'Login to your account at any time',
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting chared any fees.',
     buttonLabel: 'Learn More',
     imgStart: true,

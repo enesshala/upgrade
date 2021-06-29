@@ -1,12 +1,17 @@
 import React from 'react'
-import { Container, FormWrap, Icon, FormContent, Form, FormH1, FormLabel, FormInput, FormButton, Text } from './SigninElements'
+import { Container, FormWrap, Icon, FormContent, Form, FormH1, FormLabel, FormInput, FormButton, Text, ImgWrap, Img } from './SigninElements'
+import Logo from '../../images/UpgradeLogoDark.png';
 
 const Signin = () => {
     return (
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/">Upgrade Llc.</Icon>
+                    <Icon to="/">
+                        <ImgWrap>
+                                <Img src={Logo} alt='Upgrade Llc logo' />
+                            </ImgWrap>
+                        </Icon>
                     <FormContent>
                         <Form acrion="#">
                             <FormH1>Sign in to your account</FormH1>

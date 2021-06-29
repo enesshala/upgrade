@@ -103,4 +103,14 @@ export const Text = styled.span`
     color: #fff;
     font-size: 14px;
 `
+export const ImgWrap = styled.div`
+    height: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+`
 
+export const Img = styled.img`
+    width: 100%;
+`

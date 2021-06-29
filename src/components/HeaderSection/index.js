@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video2.mp4';
+import {animateScroll as scroll} from 'react-scroll';
 import {Button } from '../ButtonElements';
 import { HeaderContainer, HeaderBg, VideoBg, HeaderContent, HeaderH1, HeaderP, HeaderBtnWrapper, ArrowForward, ArrowRight} from './HeaderElements';
 
@@ -19,7 +20,7 @@ const HeaderSection = () => {
                 <HeaderH1>WE BUILD SOFTWARE EXPERIENCES</HeaderH1>
                 <HeaderP>We create digital products that make business processes more efficient and help businesses grow.</HeaderP>
                 <HeaderBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                    <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                         Get started {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeaderBtnWrapper>

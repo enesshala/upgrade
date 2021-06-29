@@ -1,7 +1,8 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
 import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterElements'
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, ImgWrap, Img } from './FooterElements'
+import Logo from '../../images/UpgradeLogo.png';
 
 const Footer = () => {
     const toggleHome = () => {
@@ -39,10 +40,10 @@ const Footer = () => {
                                 <FooterLink to="/">Influencer</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Social Media</FooterLinkTitle>
+                            <FooterLinkTitle>Follow Us</FooterLinkTitle>
                                 <FooterLink to="/">Instagram</FooterLink>
                                 <FooterLink to="/">Facebook</FooterLink>
-                                <FooterLink to="/">Youtube</FooterLink>
+                                <FooterLink to="/">Linkedin</FooterLink>
                                 <FooterLink to="/">Twitter</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -50,14 +51,16 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            Upgrade L.L.C.
+                        <ImgWrap>
+                            <Img src={Logo} alt='Upgrade Llc logo' />
+                        </ImgWrap>
                         </SocialLogo>
                         <WebsiteRights>Upgrade L.L.C. © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" arial-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/upgrade.ks" target="_blank" arial-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" arial-label="Youtube">
