@@ -43,11 +43,17 @@ const Footer = () => {
                             <FooterLinkTitle>Follow Us</FooterLinkTitle>
                                 <FooterLink to="/">Instagram</FooterLink>
                                 <FooterLink to="/">Facebook</FooterLink>
-                                <FooterLink to="/">Linkedin</FooterLink>
+                                <FooterLink to="">Linkedin</FooterLink>
                                 <FooterLink to="/">Twitter</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+
+                
+
+
+
+                
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
@@ -63,13 +69,13 @@ const Footer = () => {
                             <SocialIconLink href="https://www.instagram.com/upgrade.ks" target="_blank" arial-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="Youtube">
+                            {/* <SocialIconLink href="/" target="_blank" arial-label="Youtube">
                                 <FaYoutube />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
                             <SocialIconLink href="/" target="_blank" arial-label="Twitter">
                                 <FaTwitter />
                             </SocialIconLink>
-                            <SocialIconLink href="/" target="_blank" arial-label="Linkedin">
+                            <SocialIconLink href="https://www.linkedin.com/company/upgrade-llc" target="_blank" arial-label="Linkedin">
                                 <FaLinkedin />
                             </SocialIconLink>
                         </SocialIcons>
